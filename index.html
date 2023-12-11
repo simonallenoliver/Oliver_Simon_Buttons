@@ -11,9 +11,12 @@
 <body>
     <div class="main">
         <div class="navbar">
-            <p>Dojonary</p>
-            <p>Search</p>
-            <p>Login</p>
+            <p id="dojonary">Dojonary</p>
+            <div id="searchbar"> 
+                <p id="searchWord">Search</p>
+                <p><input type="text"></p>
+            </div>
+            <p><button id="login" onclick="logout(this)">Login</button></p>
         </div>
     </div>
     <!-- 
@@ -35,7 +38,7 @@
                         <h1 id="ninja">ninja</h1>
                         <p id="noun">noun</p>
                         <p id="plural">Plural: ninjas</p>
-                        <p id="likes"><button id="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                        <p><button id="likes" onclick="alert('Ninja was liked')">13 likes</button>
                         </p>
 
                     </div>
@@ -67,7 +70,7 @@
             <div class="col2">
                 <div class="col2box">
                     <h1 id="dojodefined">Dojonary is defined by YOU</h1>
-                    <p>Add Definition</p>
+                    <p><button id="addDef" onclick="hide(this)">Add Definition</button></p>
                 </div>
             </div>
         </div>
@@ -75,7 +78,7 @@
 
 
 
-    <script>"script.js"</script>
+    <script src = "script.js"></script>
 </body>
 
 </html>

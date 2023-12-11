@@ -11,12 +11,37 @@
 
 
 .navbar{
-    height: 60px;
     width: 1100px;
     background-color: grey;
     display: flex;
-    justify-content:left;
-    gap: 300px;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+#searchbar{
+    display: flex;
+    
+}
+#searchWord{
+    background-color: white;
+    color: cadetblue;
+    font-size: 10pt;
+}
+
+#login{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16pt;
+    background-color:cornflowerblue;
+    box-shadow: 5px 5px 5px;
+}
+
+#dojonary{
+    font-size: 56pt;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .bigbox{
@@ -71,8 +96,10 @@
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 16pt;
+    background-color:lightgreen;
+    box-shadow: 5px 5px 5px;
 }
 
 .boxleft{
@@ -97,7 +124,7 @@ background-color: white;
 .col2box{
     background-color:white;
     margin-top: 40px;
-    padding: 0px;
+    padding: 15px;
     height: 250px;
     border-width: 3px;
     border-style:solid;
@@ -105,5 +132,16 @@ background-color: white;
 }
 
 #dojodefined{
-    
+    font-size: 30pt;
+}
+
+#addDef{
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 50px;
+    margin-left: 26px;
+    font-size: 16pt;
+    background-color:darkkhaki;
+    box-shadow: 5px 5px 5px;
 }
