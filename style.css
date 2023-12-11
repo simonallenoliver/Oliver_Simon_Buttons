@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:cursive;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar{
+    height: 60px;
+    width: 1100px;
+    background-color: grey;
+    display: flex;
+    justify-content:left;
+    gap: 300px;
+}
+
+.bigbox{
+    display: flex;
+    justify-content: center;
+}
+
+.cols{
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+}
+
+.col1{
+    flex: 2;
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 25px;
+    padding: 0px;
+}
+
+.col1box{
+    height: 300px;
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-width: 3px;
+    border-style:solid;
+    border-color: black;
+}
+
+#ninja{
+    font-size: 66pt;
+    margin-top: 10px;
+}
+#noun{
+    font-size: 36pt;
+}
+#plural{
+    font-size: 20pt;
+    font-style: italic;
+}
+#definition{
+    font-size: 20pt;
+    margin-left: 40px;
+}
+
+#likes{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    font-size: 16pt;
+}
+
+.boxleft{
+flex: 2;
+background-color: white;
+}
+.boxright{
+    flex: 5;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col2{
+    flex: 1;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.col2box{
+    background-color:white;
+    margin-top: 40px;
+    padding: 0px;
+    height: 250px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: black;
+}
+
+#dojodefined{
+    
+}

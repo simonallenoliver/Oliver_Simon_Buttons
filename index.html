@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <p>Dojonary</p>
+            <p>Search</p>
+            <p>Login</p>
+        </div>
+    </div>
+    <!-- 
+    In big box we have all the content under the navbar -->
+    <div class="bigbox">
+
+        <!-- cols contains the two vertical boxes in bigbox
+        It is then broken down into two larger boxes
+        in the left column containing each definition
+        the defintions boxes (called col1box) are broken
+        into a left and right box -->
+        <div class="cols">
+
+            <div class="col1">
+
+                <div class="col1box">
+
+                    <div class="boxleft">
+                        <h1 id="ninja">ninja</h1>
+                        <p id="noun">noun</p>
+                        <p id="plural">Plural: ninjas</p>
+                        <p id="likes"><button id="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                        </p>
+
+                    </div>
+
+                    <div class="boxright">
+                        <p id="definition">A Practitioner skilled in the Japanese art of Ninjutsu</p>
+                    </div>
+
+                </div>
+                <div class="col1box">
+
+                    <div class="boxleft">
+                        <h1 id="ninja">ninja</h1>
+                        <p id="noun">noun</p>
+                        <p id="plural">Plural: ninjas</p>
+                        <p ><button id="likes" onclick="alert('Ninja was liked')">37 likes</button>
+                        </p>
+
+                    </div>
+                    
+
+                    <div class="boxright">
+                        <p id="definition">A programmer who breaks down problems with zen-like focus</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col2">
+                <div class="col2box">
+                    <h1 id="dojodefined">Dojonary is defined by YOU</h1>
+                    <p>Add Definition</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>"script.js"</script>
+</body>
+
+</html>
