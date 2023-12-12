@@ -9,15 +9,11 @@
 </head>
 
 <body>
-    <div class="main">
-        <div class="navbar">
-            <p id="dojonary">Dojonary</p>
-            <div id="searchbar"> 
-                <p id="searchWord">Search</p>
-                <p><input type="text"></p>
-            </div>
-            <p><button id="login" onclick="logout(this)">Login</button></p>
-        </div>
+    <div class="navbar">
+        <p id="dojonary">Dojonary</p>
+        <input placeholder="Search" type="text">
+        <button id="login" onclick="logout(this)">Login</button>
+    </div>
     </div>
     <!-- 
     In big box we have all the content under the navbar -->
@@ -27,7 +23,8 @@
         It is then broken down into two larger boxes
         in the left column containing each definition
         the defintions boxes (called col1box) are broken
-        into a left and right box -->
+        into a left and right box. The right column has a 
+        single box to add a definition -->
         <div class="cols">
 
             <div class="col1">
@@ -38,8 +35,7 @@
                         <h1 id="ninja">ninja</h1>
                         <p id="noun">noun</p>
                         <p id="plural">Plural: ninjas</p>
-                        <p><button id="likes" onclick="alert('Ninja was liked')">13 likes</button>
-                        </p>
+                        <button id="likes" onclick="alert('Ninja was liked')">13 likes</button>
 
                     </div>
 
@@ -54,11 +50,10 @@
                         <h1 id="ninja">ninja</h1>
                         <p id="noun">noun</p>
                         <p id="plural">Plural: ninjas</p>
-                        <p ><button id="likes" onclick="alert('Ninja was liked')">37 likes</button>
-                        </p>
+                        <button id="likes" onclick="alert('Ninja was liked')">37 likes</button>
 
                     </div>
-                    
+
 
                     <div class="boxright">
                         <p id="definition">A programmer who breaks down problems with zen-like focus</p>
@@ -70,15 +65,14 @@
             <div class="col2">
                 <div class="col2box">
                     <h1 id="dojodefined">Dojonary is defined by YOU</h1>
-                    <p><button id="addDef" onclick="hide(this)">Add Definition</button></p>
+                    <button id="addDef" onclick="hide(this)">Add Definition</button>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
-    <script src = "script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
